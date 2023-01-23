@@ -1,0 +1,164 @@
+.weblogo{
+    width: 100%;
+    height: 725px;
+  }
+  .moblogo{
+    display: none;
+  }
+  .middle{
+    font-family: 'prague';
+      font-size: 80px;
+      margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 45%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .topic1{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: prague;
+    letter-spacing: 3px;
+  }
+  .topic2{
+    color: #fbaa1a;
+  }
+  .para{
+    line-height: 35px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: Montserrat,sans-serif;
+  }
+  .img1{
+    width: 75%;
+  }
+  .img2{
+    display: none;
+  }
+  .banner1{
+    background: url('/assets/image/gamebanner.jpg');
+    width: 100%;
+    height: 450px;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  .bac{
+    color: #000;
+    font-family: Montserrat,sans-serif;
+  }
+  .media{
+    margin-top: 50px;
+    padding-top: 70px;
+    text-transform: uppercase;
+    font-family: prague;
+    letter-spacing: 3px;
+    color: #fff!important;
+    font-weight: 500px;
+    line-height: 1.2;
+  }
+  .tex{
+    padding-top: 10px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+  }
+  .img3{
+    width: 350px;
+    height: 500px;
+  }
+  .para2{
+    color: #524b4b87;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: Montserrat,sans-serif;
+  
+    text-align: justify;
+  }
+  .para3{
+    color: #524b4b87;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: Montserrat,sans-serif;
+    padding-left: 32px;
+    text-align: justify;
+  }
+  .boton{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #fbac29;
+    color: white;
+  }
+  
+  @media(max-width: 700px){
+    .weblogo{
+      display: none;
+    }
+    .moblogo{
+      display: block;
+      width: 100%;
+    }
+    .middle{
+      font-family: 'prague';
+      font-size: 56px;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      line-height: 1.2;
+      position: absolute;
+      color: #fff;
+      text-align: center;
+      left: 0;
+      right: 0;
+      top: 30%;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+    .para{
+      font-size: 18px;
+      line-height: 20px;
+      color: #524b4b87;
+      margin-bottom: 40px;
+     
+    }
+    .img1{
+      display: none;
+    }
+    .img2{
+      display: block;
+      width: 100%;
+    }
+    .img3{
+      width: 100%;
+    }
+    .img4{
+      width: 100%;
+    }
+    .media{
+      margin-top: 50px;
+      padding-top: 25px;
+      text-transform: uppercase;
+      font-family: prague;
+      letter-spacing: 3px;
+      color: #fff!important;
+      font-weight: 500px;
+      line-height: 1.2;
+    }
+    .banner1{
+      height: 430px;
+    }
+    .boton{
+      margin-bottom: 40px;
+    }
+  }

@@ -1,0 +1,9 @@
+<!-- <p>if works!</p> -->
+<h1 class="bg-info" *ngIf="show">sourav rajput</h1>
+<h2 class="bg-secondary" *ngIf="show;then a; else b">pninfosys</h2>
+<ng-template #a>
+    <h2>Data Show !</h2>
+</ng-template>
+<ng-template #b>
+    <h2>Data not Show !</h2>
+</ng-template>

@@ -1,0 +1,131 @@
+.brahead{
+    font-family: 'prague';
+    font-size: 80px!important;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 2px;
+    right: 0;
+    top: 42%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .topic1{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: prague;
+    letter-spacing: 3px;
+  }
+  .topic2{
+    color: #fbaa1a;
+  }
+  .para{
+    line-height: 48px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: Montserrat,sans-serif;
+  }
+  .boton{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #fbac29;
+    color: white;
+  }
+  .img1{
+    width: 75%;
+  }
+  .img2{
+    display: none;
+  }
+  .banner1{
+    background: url('/assets/image/bannerabout.jpg');
+    width: 100%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner4{
+    background: url('https://www.firstfiddle.in/assets/images/outletbanner.png');
+    width: 100%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  .bac{
+    color: #000;
+    font-family: Montserrat,sans-serif;
+  }
+  .media{
+    margin-top: 50px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: prague;
+    letter-spacing: 3px;
+    color: #fff!important;
+    font-weight: 500px;
+    line-height: 1.2;
+  }
+  .tex{
+    line-height: 40px;
+        letter-spacing: 1px;
+      font-size: 16px;
+      font-family: Montserrat,sans-serif;
+      font-weight: 400;
+  }
+  .boton2{
+    background-color:#fbac29;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-weight: 400px;
+  }
+  .banner2{
+    font-family: Montserrat,sans-serif;
+    color: #000;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+  @media(max-width: 700px){
+    .brahead{
+      font-size: 30px!important;
+    }
+    .para{
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 1px;
+      word-spacing: 1px;
+
+    }
+    .slide{
+      margin-top: 72px;
+    }
+    .boton{
+      margin-bottom: 40px;
+    }
+    .img1{
+      display: none;
+    }
+    .img2{
+      display: block;
+      width: 100%;
+    }
+  }

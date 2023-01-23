@@ -1,0 +1,118 @@
+.weblogo{
+    width: 100%;
+    height: 725px;
+  }
+  .moblogo{
+    display: none;
+  }
+  .middle{
+    font-family: 'prague';
+      font-size: 80px;
+      margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 45%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .come{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: prague;
+    letter-spacing: 3px;
+    text-align: center!important;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    box-sizing: border-box;
+  }
+  .with{
+    color:#fbaa1a
+  }
+  .bancon{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+    text-align: justify;
+  }
+  .how{
+    font-family: Raleway,sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+    box-sizing: border-box;
+  }
+  .steep{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    font-family: Montserrat,sans-serif;
+  }
+  .fogrp{
+    margin-bottom: 1rem;
+    font-family: Montserrat,sans-serif;
+  }
+  .form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  .batn1{
+    opacity: .65;
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  
+  
+  @media(max-width: 700px){
+    .weblogo{
+      display: none;
+    }
+    .moblogo{
+      display: block;
+      width: 100%;
+    }
+    .middle{
+      font-family: 'prague';
+      font-size: 56px;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      line-height: 1.2;
+      position: absolute;
+      color: #fff;
+      text-align: center;
+      left: 0;
+      right: 0;
+      top: 30%;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+  
+  }
